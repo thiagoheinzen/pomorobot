@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Selects DOM elements
   const html = document.querySelector("html");
   const focusButton = document.querySelector(".app__card-button--focus");
+  const focusDurationInput = document.querySelector("#focus-duration");
   const shortBreakButton = document.querySelector(".app__card-button--short");
   const longBreakButton = document.querySelector(".app__card-button--long");
   const banner = document.querySelector(".app__image");
@@ -123,10 +124,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Click event for focus button
   focusButton.addEventListener("click", () => {
-    elapsedTimeInSeconds = 1500; // Set time to 25 minutes
+    // Convert the input value to seconds
+    const focusDurationMinutes = parseInt(focusDurationInput.value, 10);
+    elapsedTimeInSeconds = focusDurationMinutes * 60; // Convert minutes to seconds
     changeContext("focus"); // Change context to focus
     focusButton.classList.add("active"); // Add active class to focus button
   });
+  
 
   // Click event for short break button
   shortBreakButton.addEventListener("click", () => {

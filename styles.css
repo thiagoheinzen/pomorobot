@@ -177,6 +177,46 @@ h6 {
   font-weight: 600;
 }
 
+.app__settings {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.app__settings label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+#focus-duration {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#focus-duration:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.app__settings:hover {
+  border-color: #007bff;
+}
+
 .app__card-timer {
   color: var(--color-secondary);
   text-align: center;

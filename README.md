@@ -8,6 +8,8 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
+[Read this in English](README_en.md)
+
 ## Descrição
 
 POMOROBOT é uma aplicação web projetada para ajudar os usuários a manterem o foco em suas tarefas, eliminando distrações e mantendo o fluxo de trabalho. Esta aplicação utiliza a técnica de Pomodoro, oferecendo períodos de trabalho concentrado seguidos por intervalos de descanso.
