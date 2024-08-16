@@ -5,8 +5,7 @@
 </div>
 <br />
 <p align="center">
-<img loading="lazy" src="https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-4CAF50?style=flat&labelColor=4C4C4C
-"/>
+<img loading="lazy" src="https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-GREEN"/>
 </p>
 
 [Leia isto em Português](README.md)
